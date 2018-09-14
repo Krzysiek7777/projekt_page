@@ -11,6 +11,11 @@ h1 nav li p ul{
 	margin:0;
 	padding:0;
 }
+h1{
+	text-align:center;
+	text-transform:uppercase;
+}
+
 
 article{
 	width:100%;
@@ -60,7 +65,9 @@ section h1{
 	background-color: white;
 	margin:1%;
 }
-
+#pomniejsz > img{
+	width:45%;
+}
 nav li{
 	display:inline;
 }
