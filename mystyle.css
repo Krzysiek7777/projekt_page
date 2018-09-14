@@ -52,7 +52,7 @@ section h1{
 	display:flex;
 	flex-direction: row;
 	align-items: stretch;
-	background-color:blue;
+	background-color:rgb(255, 179, 102);
 }
 .flexbox > div{
 	width:45%;
@@ -67,10 +67,63 @@ nav li{
 nav a{
 	text-decoration:none;
 	font-size:14px;
+	background-color:rgb(255, 209, 26);
 	color: blue;
-	padding:5px;
-	margin-left:4px;
+	padding:0.8em;
+	margin-right:2em;
+	
+}
+nav li a:hover{
+	background-color:rgb(204, 163, 0);
+	color:rgba(29,26,26,1.00);
+}
+header img{
+	margin:auto;
+	width: 100%;
 }
 
+footer{
+	background-color:black;
+width: 100%;
+padding:3em;
+}	
 
+@media(max-width:480px)
+{
+	nav{
+	position:fixed;
+	width:100%;
+	background-color:rgb(179, 217, 255);
+	top:0px;
+	left:0px;
+}	
+	nav li a{
+	display:block;
+	padding:2%;
+	background-color:rgb(179, 217, 255);
+	text-align:center;
+}
 
+nav li a:hover{
+	background-color:rgb(204, 163, 0);
+	width:100%;
+}
+	
+	section{
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:2%;
+}
+	#pierwszy{
+	margin-top:12em;
+	}
+	
+	header {
+		display:none;
+	}
+	.flexbox{
+		display:none;
+	}
+		
+}
